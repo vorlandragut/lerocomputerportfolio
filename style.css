@@ -1,0 +1,53 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #e2edff;
+}
+
+#owner {
+  background-color: #e2edff;
+}
+
+.finance {
+  background-color: #ffff;
+}
+
+#manager.M {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
